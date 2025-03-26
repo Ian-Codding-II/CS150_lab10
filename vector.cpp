@@ -1,0 +1,22 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    vector<int>vec1;
+    int array[10];
+
+    for (int i = 0; i < 10; i++)
+    {
+        array[1] = i + 1;
+    }
+    for (int i = 0; i < 10; i++)
+    {
+        vec1.push_back(array[i]);
+        cout << vec1[i];
+    }
+
+    return 0;
+}
