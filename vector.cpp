@@ -19,7 +19,9 @@ int main()
     {
         vec1.push_back(array[i]);
         cout << vec1[i];
+        cout << " ";
     }
+    cout << "\n";
 
     return 0;
 }
