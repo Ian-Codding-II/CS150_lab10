@@ -4,6 +4,7 @@
 using namespace std;
 
 int add(int a, int b);
+int say(int a, int b);
 
 int main()
 {
@@ -13,7 +14,6 @@ int main()
     for (int i = 0; i < 10; i++)
     {
         array[i] = i + 1;
-        array[1] = i + 1;
     }
     for (int i = 0; i < 10; i++)
     {
@@ -24,6 +24,11 @@ int main()
     return 0;
 }
 int add(int a, int b)
+{
+    return a+b;
+}
+
+int say(int a, int b)
 {
     return a+b;
 }
